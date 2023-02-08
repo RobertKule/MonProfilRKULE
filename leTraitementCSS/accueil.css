@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+/* le corps de la page */
+body{
+    background-color: rgb(187, 225, 249);
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    text-align: left;
+    font-size: 1.2em;
+    padding: 3% 10%;
+}
+
+.moiIm{
+    position: relative;
+    width: 90%;height: auto;
+    margin: 1em auto;
+    padding: auto;
+    border-radius: 10em;  
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 170, 255,0.5);
+}
+.ile{
+    margin: 0 1em 0 0;
+}
+nav{
+    font-size: large;
+    color: rgb(0, 0, 255);
+    margin: 0 0.8em;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* par rapport au body */
+body::-webkit-scrollbar{
+    width: 1em;
+}
+body::-webkit-scrollbar-track{
+    background-color: beige;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 170, 255,0.5);
+    border-radius: 999px;
+}
+.kllogo{
+    height: 3.5em;
+    width: auto;
+    margin: 1em;
+    padding: auto;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 170, 255,0.5);
+    align-items: center; 
+    /* margin-top: 10%; */
+}
+.footlien{
+    display: flex;
+    width: auto;
+    margin: auto;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.footliena{
+    color: black;
+    display: flex;
+    margin: 0 2%;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;    
+}
+main{
+    margin: 5% 5%;
+    background: rgba(0, 170, 255,0.5);
+    width: auto;
+    height: auto;
+    border-radius: 5em; 
+}
+.idmain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    margin: 5% 10%;
+    background: rgba(0, 170, 255,0.5);
+    width: auto;
+    height: auto;
+    border-radius: 5em;
+
+    box-shadow: 2.5em 2.5em 1em rgb(0, 170, 255); ;
+}
+.textindex{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+h1,h2{
+    text-align: center;
+    color: rgb(4, 4, 42);
+}
+/* les liens */
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.lienct{
+    display: inline-block;
+    background-color: rgba(34, 34, 239,.6);
+    padding: 0.7em;
+    margin: auto;
+    border: 0.15em rgb(1, 6, 47) inset;
+    border-radius: 5em;
+
+}
+a:visited {
+    color: rgb(5, 24, 119);
+}
+a:active {
+    color: rgba(255, 255, 255, 0.388);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+em{
+    color: blue;
+}
+

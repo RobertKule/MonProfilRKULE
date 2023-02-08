@@ -1,0 +1,53 @@
+.klgalall{
+    background-color: rgba(0, 170, 255,0.8);
+    border-radius: 2em;
+    margin: 2em;
+    padding: 2em;
+
+}
+.klgal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1% solid blue;
+    margin: 2.5em auto;
+}
+.klgala{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.un,.deux,.trois,.quatre,.cinq,.six{
+    height: 25em;
+    width: auto;
+    margin: 1em;
+    padding: auto;
+}
+body{
+    background-color: rgb(94, 94, 255);
+}
+.mesetudes{
+    text-align: center;
+    background-color: rgba(0, 170, 255,0.8);
+    padding: 2em;
+    margin: 2em;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+td,tr{
+    border: 0.3em solid rgb(1, 2, 34);
+    padding: 1em;
+}
+.thdata,caption{
+    margin: 1em ;
+    font-weight: 900;
+    color: rgba(4, 4, 139, 0.5);
+}
+
