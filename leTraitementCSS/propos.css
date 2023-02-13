@@ -64,18 +64,18 @@ tbody{
 .proposmoi{
     display: flex;
     flex-direction: row;
-}
-.moip{
-    text-align: left;
-    color: rgb(54, 42, 165);
-    font-size: 2em;
-    width: 50%;
-    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 245, 248);
+    color: rgb(7, 3, 61);
+    border-radius: 5em;
+    margin: 2em;
+    padding: 2em;
 }
 .moiimg{
-    margin: 1em;
-    width: auto;
-    height: 20em;
-    text-align: center;
+    width: 25em;
+    height: auto;
+    margin: 2em;
+    padding: 1em;
 }
 
