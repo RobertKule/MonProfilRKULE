@@ -1,9 +1,5 @@
-.klgalall{
-    background-color: rgba(0, 170, 255,0.8);
-    border-radius: 2em;
-    margin: 2em;
-    padding: 2em;
-
+img{
+    border-radius: 5em;
 }
 .klgal{
     display: flex;
@@ -24,30 +20,48 @@
 .un,.deux,.trois,.quatre,.cinq,.six{
     height: 25em;
     width: auto;
-    margin: 1em;
+    margin: 0.5em;
     padding: auto;
 }
 body{
     background-color: rgb(94, 94, 255);
 }
-.mesetudes{
+section{
     text-align: center;
-    background-color: rgba(0, 170, 255,0.8);
+    background-color: rgb(224, 245, 248);
+    border-radius: 5em;
     padding: 2em;
     margin: 2em;
+    width: auto;
 }
 table{
     border-collapse: collapse;
     width: 100%;
     height: auto;
+    margin: 1em;
+    padding: 0.5em;
 }
 td,tr{
     border: 0.3em solid rgb(1, 2, 34);
     padding: 1em;
 }
-.thdata,caption{
-    margin: 1em ;
-    font-weight: 900;
+th{
+    margin: 1.5em ;
+    font-weight: lighter;
     color: rgba(4, 4, 139, 0.5);
+}
+thead,tfoot{
+    color: blue;
+    font-weight: 900;
+}
+caption{
+    font-weight: 900;
+    padding: 1em;
+    border: 0.3em ;
+    color: rgba(4, 4, 202, 0.603);
+}
+tbody{
+    color: rgb(0, 0, 0);
+    font-style:italic ;
 }
 
