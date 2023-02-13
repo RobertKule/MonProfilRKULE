@@ -58,6 +58,7 @@ body::-webkit-scrollbar-thumb{
     width: auto;
     margin: 1em;
     padding: auto;
+    border-radius: 5em;
 }
 footer{
     display: flex;
