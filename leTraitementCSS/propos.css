@@ -23,9 +23,6 @@ img{
     margin: 0.5em;
     padding: auto;
 }
-body{
-    background-color: rgb(94, 94, 255);
-}
 section{
     text-align: center;
     background-color: rgb(224, 245, 248);
@@ -63,5 +60,22 @@ caption{
 tbody{
     color: rgb(0, 0, 0);
     font-style:italic ;
+}
+.proposmoi{
+    display: flex;
+    flex-direction: row;
+}
+.moip{
+    text-align: left;
+    color: rgb(54, 42, 165);
+    font-size: 2em;
+    width: 50%;
+    z-index: 1;
+}
+.moiimg{
+    margin: 1em;
+    width: auto;
+    height: 20em;
+    text-align: center;
 }
 

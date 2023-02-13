@@ -92,6 +92,8 @@ main{
     width: auto;
     height: auto;
     border-radius: 5em; 
+    border-top: 2em solid rgba(0, 170, 255,0.8);
+    border-bottom: 2em solid rgba(0, 170, 255,0.8);
 }
 .idmain{
     display: flex;
