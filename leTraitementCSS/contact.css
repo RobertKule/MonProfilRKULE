@@ -1,0 +1,54 @@
+fieldset{
+    font-size: 1.1em;
+    border-radius: 3em;
+    border: 0.3em rgb(11, 135, 184) double;
+    background-color: rgb(224, 245, 248);
+    color: rgb(11, 11, 124);
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+legend{
+    background-color: rgb(224, 245, 248);
+    text-align: center;
+    font-size: 1.3em;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 3em;
+}
+label{
+    margin: 0 1em;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+input,select{
+    /* height: 2em; */
+    font-size: 1.1em;
+    background-color: aliceblue;
+    border-radius: 2em;
+    padding: 0.4em;
+    width: 20;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sexe{
+    display: inline-block;
+}
+.envoi{
+    width: 30%;
+    margin: 0 30%;
+    text-align: center;
+}
