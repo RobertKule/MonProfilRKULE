@@ -9,12 +9,12 @@
 </head>
 <body>
     <nav class="droite maj">
-        <a href="accueil.html" class="form_taille">S'enregistrer</a>
+        <a href="lesPages/index.php" class="form_taille">S'enregistrer</a>
     </nav>
     <main>
         <h1 class="maj">Bienvenue sur la page de présentation de Robert KULE</h1>
         <h2 class="min">Login</h2> 
-        <form action="" method="post" class="arrond colonne ombre">
+        <form action="lesPages/index.php" method="post" class="arrond colonne ombre">
         <div class="ligne">
                 <label for="nom" class="form_taille maj">Nom d'utilisateur</label>
                 <input type="text" id="nom" name="nom" maxlength="25" class="form_taille" placeholder="Entrez ici votre nom">
@@ -23,9 +23,7 @@
                 <label for="mdpass" class="form_taille maj">mot de passe</label>
                 <input type="password" id="mdpass" minlength="4" maxlength="10" size="15" placeholder="votre mot de passe" class="form_taille">
         </div>
-        <a href="lesPages/index.php">
-            <input type="submit" value="Envoyer" class="form_taille a">
-        </a>  
+        <input type="submit" value="Envoyer" class="form_taille a">
         </form>
     </main>
 </body>

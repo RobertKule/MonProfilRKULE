@@ -42,6 +42,7 @@ input{
 }
 .min{
     text-transform: capitalize;
+    text-align: center;
 }
 .droite{
     text-align: right;
