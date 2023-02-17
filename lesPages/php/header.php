@@ -1,5 +1,5 @@
 <header>
-    <a href="index.html">
+    <a href="index.php">
         <img src="../images/kllogo.png" alt="Robert KULE LOGO" class="kllogo">
     </a>
     <nav>
