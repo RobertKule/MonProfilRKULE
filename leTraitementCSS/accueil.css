@@ -82,9 +82,10 @@ footer{
 .footliena{
     color: black;
     display: flex;
-    margin: 0 2%;
+    padding: 2%;
     flex-direction: column;
-    justify-content:center ;
+    justify-content:space-between ;
+    flex-wrap: wrap;
     align-items: center;    
 }
 main{
